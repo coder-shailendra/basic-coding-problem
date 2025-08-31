@@ -8,4 +8,4 @@ if n%5==0 and n%3==0:
 
 else:
    
-   print("the number is not divisible by 3 and 5")
+   print("the number is not divisible by 3 and 5 ert")
