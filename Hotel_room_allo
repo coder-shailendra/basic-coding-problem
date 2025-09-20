@@ -1,0 +1,8 @@
+'''Hostel Room Allocation
+Allocate hostel based on gender: Male → Boys Hostel, Female → Girls Hostel.'''
+gender=input("enter the gender")
+if gender=="male":
+    print("boys hostel")
+
+else:
+    print("girls hostel")
