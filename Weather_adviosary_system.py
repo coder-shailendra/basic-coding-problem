@@ -1,5 +1,8 @@
+'''Weather Advisory System
+If temperature <10 and raining → “Carry umbrella & warm clothes”. Else → Normal message.'''
 temperature=float(input("enter the temperature"))
-if temperature<10 and "raining":
-    print("carry umbrella and warm clothes")
+weather=input("enter the weather")
+if temperature<10 and weather=="raining":
+    print("carring umbrella and warm clothes")
 else:
     print("normal message")
